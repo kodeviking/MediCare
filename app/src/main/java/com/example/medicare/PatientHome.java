@@ -29,7 +29,8 @@ public class PatientHome extends AppCompatActivity {
 
     String restApi(String symptom){
 
-        String url = "http://10.0.7.150:5000/?symptoms="+symptom;
+//        String url = "http://192.168.0.102:5000/?symptoms="+symptom;
+        String url = "http://192.168.42.153:5000/?symptoms="+symptom;
         Log.e("Response url", url);
 
         // Instantiate the RequestQueue.
@@ -41,7 +42,8 @@ public class PatientHome extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         // Display the first 500 characters of the response string.
-                        diseases = response.substring(0,500);
+                        Log.e("Responce data", response);
+                        diseases = response.toString();
                         edtt.setText(diseases);
                     }
                 }, new Response.ErrorListener() {
@@ -96,22 +98,21 @@ public class PatientHome extends AppCompatActivity {
         Submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(cold.isChecked() && Fever.isChecked() ){
+                if(Cough.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
+                    text = restApi("cough,fever,giddyness");                }
+                if(StomachAche.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
+                    text = restApi("stomachache,fever,giddyness");
+                }
+                if(Fever.isChecked() && HeadAche.isChecked() && StomachAche.isChecked() ){
+                    text = restApi("headache,fever,stomachache");
+                }
+                if(cold.isChecked() && Fever.isChecked() && Goldyness.isChecked()  && HeadAche.isChecked()){
+                    text = restApi("cold,fever,giddyness,headache");
+                }
+                if(cold.isChecked() && Cough.isChecked() ){
                     text = restApi("cold,fever");
 //                    edtt.setText("Hello");
 //                    edtt.setText(text);
-                }
-                if(cold.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
-                    edtt.setText("Common Cold or Sinus\nCommon Viral infection in nose and throat");
-                }
-                if(StomachAche.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
-                    edtt.setText("Stomach Flu\nIntestinal infrection marked by diarrhoea");
-                }
-                if(HeadAche.isChecked() && Fever.isChecked() && StomachAche.isChecked() ){
-                    edtt.setText("Dengue Fever\nMosquito bourne viral disease");
-                }
-                if(cold.isChecked() && Fever.isChecked() && Goldyness.isChecked()  && HeadAche.isChecked()){
-                    edtt.setText("Vertigo\nLabyrinthitis is usually caused by a viral infection, such as the common cold or flu, which spreads to the labyrinth");
                 }
             }
         });

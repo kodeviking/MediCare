@@ -44,116 +44,117 @@
 25-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:17:9-54
 26        android:supportsRtl="true"
 26-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:18:9-35
-27        android:theme="@style/AppTheme"
-27-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:19:9-40
-28        android:usesCleartextTraffic="true" >
-28-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:12:9-44
-29        <meta-data
-29-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:21:9-101
-30            android:name="com.here.android.maps.appid"
-30-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:21:20-62
-31            android:value="Mfc5AbwNVlF157vGimW6" />
-31-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:21:63-99
-32        <meta-data
-32-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:22:9-106
-33            android:name="com.here.android.maps.apptoken"
-33-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:22:20-65
-34            android:value="uqMqm2BkS2ix2CgCwZN48g" />
-34-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:22:66-104
-35
-36        <activity android:name="com.example.medicare.MapAcitvity" />
-36-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:24:9-58
-36-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:24:19-46
-37        <activity android:name="com.example.medicare.ImageUpload" />
-37-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:25:9-49
-37-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:25:19-46
-38        <activity android:name="com.example.medicare.DoctorHome" />
-38-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:26:9-48
-38-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:26:19-45
-39        <activity android:name="com.example.medicare.PatientSignUp" />
-39-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:27:9-51
-39-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:27:19-48
-40        <activity android:name="com.example.medicare.PatientHome" />
-40-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:28:9-49
-40-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:28:19-46
-41        <activity android:name="com.example.medicare.PatientSignInActivity" />
-41-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:29:9-59
-41-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:29:19-56
-42        <activity android:name="com.example.medicare.DoctorSignInActivity" />
-42-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:30:9-58
-42-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:30:19-55
-43        <activity android:name="com.example.medicare.PatientDoctorLogin" />
-43-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:31:9-56
-43-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:31:19-53
-44        <activity android:name="com.example.medicare.MainActivity" >
-44-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:32:9-38:20
-44-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:32:19-47
-45            <intent-filter>
-45-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:33:13-37:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:34:17-69
-46-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:34:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:36:17-77
-48-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:36:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
-52            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
-53            android:excludeFromRecents="true"
-53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
-54            android:exported="true"
-54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
-55            android:launchMode="singleTask"
-55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
-56            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-56-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
-57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-57-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
-58
-59        <service
-59-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
-60            android:name="com.google.firebase.components.ComponentDiscoveryService"
-60-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
-61            android:exported="false" >
-61-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
-62            <meta-data
-62-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
-63                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-63-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
-64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
-65        </service>
-66
-67        <activity
-67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-71
-72        <provider
-72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-73            android:name="com.google.firebase.provider.FirebaseInitProvider"
-73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-74            android:authorities="com.example.medicare.firebaseinitprovider"
-74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-75            android:exported="false"
-75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-76            android:initOrder="100" />
-76-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\064e380854a240be28c2ad893a2a63c2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\064e380854a240be28c2ad893a2a63c2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\064e380854a240be28c2ad893a2a63c2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
-81    </application>
-82
-83</manifest>
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme"
+28-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:19:9-40
+29        android:usesCleartextTraffic="true" >
+29-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:12:9-44
+30        <meta-data
+30-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:21:9-101
+31            android:name="com.here.android.maps.appid"
+31-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:21:20-62
+32            android:value="Mfc5AbwNVlF157vGimW6" />
+32-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:21:63-99
+33        <meta-data
+33-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:22:9-106
+34            android:name="com.here.android.maps.apptoken"
+34-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:22:20-65
+35            android:value="uqMqm2BkS2ix2CgCwZN48g" />
+35-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:22:66-104
+36
+37        <activity android:name="com.example.medicare.MapAcitvity" />
+37-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:24:9-58
+37-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:24:19-46
+38        <activity android:name="com.example.medicare.ImageUpload" />
+38-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:25:9-49
+38-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:25:19-46
+39        <activity android:name="com.example.medicare.DoctorHome" />
+39-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:26:9-48
+39-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:26:19-45
+40        <activity android:name="com.example.medicare.PatientSignUp" />
+40-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:27:9-51
+40-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:27:19-48
+41        <activity android:name="com.example.medicare.PatientHome" />
+41-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:28:9-49
+41-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:28:19-46
+42        <activity android:name="com.example.medicare.PatientSignInActivity" />
+42-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:29:9-59
+42-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:29:19-56
+43        <activity android:name="com.example.medicare.DoctorSignInActivity" />
+43-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:30:9-58
+43-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:30:19-55
+44        <activity android:name="com.example.medicare.PatientDoctorLogin" />
+44-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:31:9-56
+44-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:31:19-53
+45        <activity android:name="com.example.medicare.MainActivity" >
+45-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:32:9-38:20
+45-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:32:19-47
+46            <intent-filter>
+46-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:33:13-37:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:34:17-69
+47-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:34:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:36:17-77
+49-->D:\dhiraj\projects\android\FinalApp\MediCare\app\src\main\AndroidManifest.xml:36:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+53            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+54            android:excludeFromRecents="true"
+54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+55            android:exported="true"
+55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+56            android:launchMode="singleTask"
+56-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+57            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+57-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+59
+60        <service
+60-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+63            <meta-data
+63-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+64                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+64-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\4871c108f8f9bf8698f6c1edfec21efd\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+66        </service>
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\22c0a3fd32a556912d60ff0db910ac86\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+72
+73        <provider
+73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+74            android:name="com.google.firebase.provider.FirebaseInitProvider"
+74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+75            android:authorities="com.example.medicare.firebaseinitprovider"
+75-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+76            android:exported="false"
+76-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+77            android:initOrder="100" />
+77-->[com.google.firebase:firebase-common:16.0.3] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\5bd407a2dfc0843834ffbfb049e74364\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\064e380854a240be28c2ad893a2a63c2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\064e380854a240be28c2ad893a2a63c2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\DhirajMehta\.gradle\caches\transforms-2\files-2.1\064e380854a240be28c2ad893a2a63c2\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+82    </application>
+83
+84</manifest>
