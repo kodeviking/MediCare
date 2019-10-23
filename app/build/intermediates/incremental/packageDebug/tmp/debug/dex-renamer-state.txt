@@ -1,4 +1,4 @@
-#Tue Oct 22 15:29:18 IST 2019
-base.0=C\:\\Users\\ACER\\AndroidStudioProjects\\MediCare\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Wed Oct 23 16:07:01 IST 2019
+base.0=D\:\\dhiraj\\projects\\android\\FinalApp\\MediCare\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
