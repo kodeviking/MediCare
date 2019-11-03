@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
@@ -98,22 +99,48 @@ public class PatientHome extends AppCompatActivity {
         Submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(Cough.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
-                    text = restApi("cough,fever,giddyness");                }
-                if(StomachAche.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
-                    text = restApi("stomachache,fever,giddyness");
+                String symptoms = "";
+                if(cold.isChecked()){
+                    symptoms = symptoms + "cold,";
                 }
-                if(Fever.isChecked() && HeadAche.isChecked() && StomachAche.isChecked() ){
-                    text = restApi("headache,fever,stomachache");
+                if(Cough.isChecked()){
+                    symptoms = symptoms + "cough,";
                 }
-                if(cold.isChecked() && Fever.isChecked() && Goldyness.isChecked()  && HeadAche.isChecked()){
-                    text = restApi("cold,fever,giddyness,headache");
+                if(Fever.isChecked()){
+                    symptoms = symptoms + "fever,";
                 }
-                if(cold.isChecked() && Cough.isChecked() ){
-                    text = restApi("cold,fever");
-//                    edtt.setText("Hello");
-//                    edtt.setText(text);
+                if(HeadAche.isChecked()){
+                    symptoms = symptoms + "headache,";
                 }
+                if(Goldyness.isChecked()){
+                    symptoms = symptoms + "giddyness,";
+                }
+                if(StomachAche.isChecked()){
+                    symptoms = symptoms + "stomachache,";
+                }
+                
+                if(symptoms != ""){
+                    symptoms = symptoms.substring(0, symptoms.length()-1);
+                    text = restApi(symptoms);
+                }else{
+                    Toast.makeText(PatientHome.this, "Please select the symptoms.", Toast.LENGTH_SHORT).show();
+                }
+//                if(Cough.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
+//                    text = restApi("cough,fever,giddyness");                }
+//                if(StomachAche.isChecked() && Fever.isChecked() && Goldyness.isChecked() ){
+//                    text = restApi("stomachache,fever,giddyness");
+//                }
+//                if(Fever.isChecked() && HeadAche.isChecked() && StomachAche.isChecked() ){
+//                    text = restApi("headache,fever,stomachache");
+//                }
+//                if(cold.isChecked() && Fever.isChecked() && Goldyness.isChecked()  && HeadAche.isChecked()){
+//                    text = restApi("cold,fever,giddyness,headache");
+//                }
+//                if(cold.isChecked() && Cough.isChecked() ){
+//                    text = restApi("cold,fever");
+////                    edtt.setText("Hello");
+////                    edtt.setText(text);
+//                }
             }
         });
 
